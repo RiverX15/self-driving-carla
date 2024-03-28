@@ -76,7 +76,7 @@ def create_carla_world(pygame, mapid):
     client = carla.Client('localhost', 2000)
     client.set_timeout(40.0)
 
-    client.load_world('Town0' + mapid)
+    # client.load_world('Town0' + mapid)
     world = client.get_world()
     return display, font, clock, world
 
