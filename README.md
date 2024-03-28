@@ -20,6 +20,8 @@ Carla self-driving based on lane detection. We use model DeeplabV3+MobileNetV2 i
 
 *This code is test on Window10, with 4GB GPU Nvidia GTX-1050 and Ubuntu 22.04, with 4GB GPU Nvidia GTX-1060!!!
 
+*Note by [@RiverX15](<https://github.com/RiverX15>): This code has been tested on Windows 11 with Intel i7 11th Gen and no dedicated GPU, and it works out of the box (after installing the required dependencies via `pip`).
+
 ### System requirements:
 
 - x64 system
@@ -78,6 +80,8 @@ With specify argument:
 ```sh
 $ python carla_sim.py --fps=30 --mapid=4 --model openvino
 ```
+
+*Note by [@RiverX15](<https://github.com/RiverX15>): To view the LIDAR simulations, run the `carla_sim_lidar.py` file with the same arguments.
 
 
 ### Result:
